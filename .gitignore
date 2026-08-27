@@ -1,0 +1,46 @@
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+.DS_Store
+
+# Laravel environment files (Do not commit secrets)
+.env
+.env.backup
+.env.production
+.env.local
+
+# IDE & Editor files
+.phpactor.json
+.phpunit.result.cache
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+
+# Composer and packages
+/auth.json
+/node_modules
+/vendor
+
+# Laravel Build & Storage
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Helper files
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+Thumbs.db
